@@ -5,6 +5,7 @@ export function Quiz({route}) {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
         <Text>Quiz</Text>
+        <Text>Count:</Text>
       </View>
     );
   }

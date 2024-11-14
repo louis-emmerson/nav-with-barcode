@@ -12,6 +12,7 @@ export function HomeScreen() {
         <Button onPress={() => navigation.navigate('Quiz', {
            xp: xp
           })}>Take a Quiz</Button>
+        
       </View>
     );
   }

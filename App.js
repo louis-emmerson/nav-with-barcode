@@ -10,6 +10,7 @@ import { Profile } from './Profile';
 import { Button } from '@react-navigation/elements';
 import { Quiz } from './Quiz';
 import { StyleSheet, Text, View } from 'react-native';
+import { ResultsPage } from './Results';
 
 const Tab = createBottomTabNavigator();
 
@@ -35,6 +36,7 @@ function RootStack() {
             <Text>{`${xp} XP`}</Text>
           )}}/>
       <Stack.Screen name="Profile" component={Profile}/>
+      <Stack.Screen name="Results" component={ResultsPage}/>
       <Stack.Screen name="Quiz" component={Quiz} options={{headerRight: () => (
             <Text>{`${xp} XP`}</Text>
           )}}/>
